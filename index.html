@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Montserrat:wght@200;300;400;500&family=Moon+Dance&family=Roboto:ital@1&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Spotify-Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+           <div class="navBar">
+            <div class="nav_option" style="opacity: 1;">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav_option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+           </div> 
+           <div class="library">
+            <div class="option">
+                <div class="lib_option nav_option">
+                    <img src="library_icon.png" alt="">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="more_icon">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <h5>Create your first playlist</h5>
+                    <p>It's easy,we'll help you</p>
+                    <button class="btn">Create playlist</button>
+                </div>
+                <div class="box">
+                    <h5>Let's find some podcasts to follow</h5>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button class="btn">Browse podcasts</button>
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="mainbody">
+            <div class="main_nav">
+                <div class="arrow">
+                    <img src="backward_icon.png" alt="">
+                    <img src="forward_icon.png" class="withdraw" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="btn withdraw">Explore Premium</button>
+                    <button class="btn dark_badge"><i class="fa-solid fa-download" style="margin-right: 5px;"></i> Install App</button>
+                    <i class="fa-regular fa-user " id="inside_btn"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <!-- first -->
+                 <h2>Recently played</h2>
+                 <div class="card-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" alt="">
+                        <h5 class="card-title">Top 50-Global</h5>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                 </div>
+                 <!-- second -->
+                 <div class="heading">
+                    <h2 class="on_hover">Trending now near you</h2>
+                    <p class="on_hover">Show all</p>
+                 </div>
+                 <div class="card-container">
+                    <div class="card one">
+                        <img src="card2img.jpeg" alt="">
+                        <h5 class="card-title">Mahiye Jinna Sona</h5>
+                        <p class="card-info">Listen most melodies songs till date...</p>
+                    </div>
+                    <div class="card two">
+                        <img src="card3img.jpeg" alt="">
+                        <h5 class="card-title">Mere Paas Tum Ho</h5>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    <div class="card three">
+                        <img src="card4img.jpeg" alt="">
+                        <h5 class="card-title">NAA Ready</h5>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    <div class="card four">
+                        <img src="card3img.jpeg" alt="">
+                        <h5 class="card-title">Top Songs Global</h5>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    <div class="card five">
+                        <img src="card2img.jpeg" alt="">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>             
+                 </div>
+
+                 <!-- third -->
+                 <div class="heading">
+                    <h2 class="on_hover">Featured Cards</h2>
+                    <p class="on_hover">Show all</p>
+                 </div>
+                 <div class="card-container">
+                    <div class="card one">
+                        <img src="card6img.jpeg" alt="">
+                        <h5 class="card-title">Mahiye Jinna Sona</h5>
+                        <p class="card-info">Listen most melodies songs till date...</p>
+                    </div>
+                    <div class="card two">
+                        <img src="card5img.jpeg" alt="">
+                        <h5 class="card-title">Mere Paas Tum Ho</h5>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    <div class="card three">
+                        <img src="card1img.jpeg" alt="">
+                        <h5 class="card-title">NAA Ready</h5>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                    <div class="card four">
+                        <img src="card5img.jpeg" alt="">
+                        <h5 class="card-title">Top Songs Global</h5>
+                        <p class="card-info">Your daily updates of most played tracks...</p>
+                    </div>
+                                
+                 </div>
+            </div>
+
+
+            <div class="footer">
+                <div class="footer_data">
+                    <div class="col1">
+                        <h5>Company</h5>
+                        <p>About</p>
+                        <p>Jobs</p>
+                        <p>For the Record</p>
+                    </div>
+                    <div class="col2 withdraw">
+                        <h5>Communities</h5>
+                        <p>For Artists</p>
+                        <p>Developers</p>
+                        <p>Advertising</p>
+                        <p>Investors</p>
+                        <p>Vendors</p>
+                    </div>
+                    <div class="col3">
+                        <h5>Useful links</h5>
+                        <p>Support</p>
+                        <p>Free Mobile App</p>
+                    </div>
+                    <div class="col4">
+                        <div class="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="facebook">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="line">
+                    <p>&copy;2023 Spotify AB</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="music_player">
+            <div class="album">
+                <img src="card2img.jpeg" alt="">
+                <div class="album_content">
+                    <p style="font-weight: 600;">Mahiye Jinna Sona</p>
+                    <p>Darshan Raval</p>
+                </div>
+                <i class="fa-regular fa-heart" style="cursor: pointer;"></i>
+            </div>
+            <div class="player">
+                <div class="player_options">
+                    <img src="player_icon1.png" alt="">
+                    <img src="player_icon2.png" alt="">
+                    <img src="player_icon3.png"  alt="" style="height: 1.7rem; opacity: 1;">
+                    <img src="player_icon4.png" alt="">
+                    <img src="player_icon5.png" alt="">
+                </div>
+                <div class="music_range">
+                    <span style="margin-right: 5px;" class="start_point">0:00</span>
+                    <input type="range" min="100" max="100" class="progress-bar" step="1">
+                    <span style="margin-left: 5px;" class="end_point">3:20</span>
+                </div>
+            </div>
+            <div class="controls">
+                <i class="fa-regular fa-circle-play control_icon" ></i>
+                <span class="material-symbols-outlined control_icon">
+                    smart_display
+                </span>
+                <i class="fa-solid fa-list-ul control_icon"></i>
+                <span class="material-symbols-outlined control_icon">
+                    devices
+                </span>
+                <i class="fa-solid fa-volume-low control_icon"></i>
+                <input type="range" name="" id="" max="100" min="100" step="1" class=" control_bar control_icon">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
